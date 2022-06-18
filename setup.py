@@ -102,7 +102,7 @@ setup(
         "progressbar2>=3.34.3",
         "joblib>=0.14.0",
         "matplotlib>=3.0.0",
-        "modopt==1.4",
+        "modopt",
     ],
     ext_modules=[
         CMakeExtension("bbfmm", sourcedir="fmm"),
